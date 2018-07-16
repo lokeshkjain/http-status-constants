@@ -15,3 +15,5 @@ use HttpStatus\Response;
 $response_obj = new Response;
 
 $sucees_reponse = $response_obj::SUCCESS_OK;
+
+###IF you need to use only status code or status message then you can use Code or Message Class.
